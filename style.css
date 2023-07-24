@@ -1,0 +1,58 @@
+body{
+    background-color:floralwhite;
+    height: 100vh;
+}
+.main{
+    background-color:lightblue;
+    padding: 5px;
+}
+.starting-box{
+    text-align: center;
+}
+h1{
+    color: blueviolet;
+    font-size: 50px;
+    margin-bottom: 3px;
+}
+.photo{
+    margin-Right: 20px;
+    float: left;
+    width: 250px;
+    height: 200px;
+    
+}
+p{
+    font-size: 18px;
+}
+.title-image{
+    width: 250px;
+    height: 250px;
+    border: 5px solid burlywood;
+    border-radius: 10%;
+}
+.second-file >h2{
+    color: crimson;
+    text-align: center;
+}
+.famous-songs{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+    text-align: center;
+}
+.awards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+@media (max-width:1250px){
+    .famous-songs{
+        flex-direction: column;
+        
+    }
+    .awards{
+        flex-direction: column;
+    }
+}
+
